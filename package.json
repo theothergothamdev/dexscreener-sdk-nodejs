@@ -1,0 +1,38 @@
+{
+  "name": "@theothergothamdev/dexscreener-sdk",
+  "version": "0.1.0",
+  "description": "Unofficial Nodejs SDK for dexscreener.com",
+  "author": "theothergothamdev",
+  "license": "MIT",
+  "homepage": "https://github.com/theothergothamdev/dexscreener-sdk-nodejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theothergothamdev/dexscreener-sdk-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theothergothamdev/dexscreener-sdk-nodejs/issues"
+  },
+  "keywords": [],
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "module": "lib/index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/bun": "^1.2.2",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
